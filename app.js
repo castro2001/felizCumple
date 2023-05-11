@@ -50,6 +50,17 @@ function reveal() {
 
     const play = document.querySelector('#play');
     play.addEventListener('click', musica);
+    const Imagen= document.querySelector('#imagen')
+
+    var ifrm = document.createElement('img');
+    ifrm.setAttribute("src", "grupo.jpg");
+    ifrm.style.width='250px';
+    ifrm.style.height='250px';
+    ifrm.style.objectFit='cover';
+    //ifrm.style.width = `${w}px`;
+    //ifrm.style.height = `${h}px`;
+    ifrm.style.border = 'none';
+    Imagen.appendChild(ifrm);  
 
   }
 
