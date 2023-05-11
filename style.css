@@ -7,7 +7,16 @@ html, body, .container {
 .icons .row #play:active {
     color: orangered !important;
   }
-  
+    .caja{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .merrywrap {
   position: absolute;
   right: 0px;
